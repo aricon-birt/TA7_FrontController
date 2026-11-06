@@ -1,0 +1,11 @@
+# Dependencias de Composer: se regeneran con "composer install"
+/vendor/*
+!/vendor/.gitkeep
+
+# Logs: se guarda la carpeta, no los registros
+/logs/*
+!/logs/.gitkeep
+
+# Credenciales reales (nunca a GitHub)
+/config/config.local.php
+.env
